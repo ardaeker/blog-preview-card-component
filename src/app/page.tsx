@@ -7,7 +7,7 @@ export default function Page() {
           To avoid this, we can add visually hidden text to the <h1> element. 
           This is only necessary in this example; in a real-world scenario, we will likely have a title. */}
       <h1 className="sr-only">Product Preview Card Component</h1>
-      <article className="max-w-card rounded-card bg-white p-6 shadow-card transition-shadow has-[h2:hover]:shadow-card-active">
+      <article className="border-black max-w-card rounded-card border bg-white p-6 shadow-card transition-shadow has-[h2:hover]:shadow-card-active">
         <figure>
           <img
             src="/illustration-article.svg"
