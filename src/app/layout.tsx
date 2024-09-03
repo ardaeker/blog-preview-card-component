@@ -14,14 +14,12 @@ export const metadata: Metadata = {
   title: "Arda Eker - Blog Preview Card Component",
   description:
     "This is a solution to the Blog Preview Card Component challenge on Frontend Mentor. It's built with Tailwind CSS and NextJS. Made with ❤️ by Arda Eker.",
-  metadataBase: new URL(
-    "https://fm-2024-product-preview-card-component.vercel.app/",
-  ),
+  metadataBase: new URL("fm-2024-blog-preview-card-component.vercel.app/"),
   openGraph: {
     title: "Arda Eker - Blog Preview Card Component",
     description:
       "This is a solution to the Blog Preview Card Component challenge on Frontend Mentor. It's built with Tailwind CSS and NextJS. Made with ❤️ by Arda Eker.",
-    url: "fm-2024-product-preview-card-component.vercel.app",
+    url: "fm-2024-blog-preview-card-component.vercel.app",
     type: "website",
   },
   twitter: {
