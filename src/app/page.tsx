@@ -3,6 +3,10 @@ import Link from "next/link";
 export default function Page() {
   return (
     <main className="flex min-h-screen items-center justify-center p-6">
+      {/* The W3C Markup Validation Service will throw an error if the <h1> element is empty. 
+          To avoid this, we can add visually hidden text to the <h1> element. 
+          This is only necessary in this example; in a real-world scenario, we will likely have a title. */}
+      <h1 className="sr-only">Product Preview Card Component</h1>
       <article className="max-w-card rounded-card bg-white p-6 shadow-card transition-shadow has-[h2:hover]:shadow-card-active">
         <figure>
           <img
