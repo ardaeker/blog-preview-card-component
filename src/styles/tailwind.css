@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Colors */
+    --color-black: hsla(0, 0%, 7%, 1);
+    --color-white: hsla(0, 0%, 100%, 1);
+    --color-yellow: hsla(47, 89%, 63%, 1);
+    --color-gray: hsla(0, 0%, 50%, 1);
+
+    /* The border radius of a card. */
+    --border-radius-card: 1.25rem;
+    --border-radius-thumbnail: 0.625rem;
+
+    /* The maximum width of a card. */
+    --max-width-card: 24rem;
+
+    /* The height of a thumbnail. */
+    --height-thumbnail: 12.5rem;
+
+    /* The box shadow of a card. */
+    --box-shadow-card: 8px 8px 0px 0px var(--color-black);
+    --active-box-shadow-card: 16px 16px 0px 0px var(--color-black);
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    background-color: var(--color-yellow);
+  }
+}
+
+@layer utilities {
+  /* 
+    Utility class to set a minimum height of 100% of the viewport height.
+    This is for which browsers that do not support the `100svh` unit.
+  */
+  .min-h-screen {
+    min-height: 100vh;
+    min-height: 100svh;
+  }
+}

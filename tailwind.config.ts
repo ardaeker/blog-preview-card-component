@@ -7,11 +7,26 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      gray: "var(--color-gray)",
+      white: "var(--color-white)",
+      black: "var(--color-black)",
+      yellow: "var(--color-yellow)",
+    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      maxWidth: {
+        card: "var(--max-width-card)",
+      },
+      borderRadius: {
+        card: "var(--border-radius-card)",
+        thumbnail: "var(--border-radius-thumbnail)",
+      },
+      boxShadow: {
+        card: "var(--box-shadow-card)",
+        "card-active": "var(--active-box-shadow-card)",
+      },
+      height: {
+        thumbnail: "var(--height-thumbnail)",
       },
     },
   },
