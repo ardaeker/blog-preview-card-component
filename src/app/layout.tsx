@@ -14,6 +14,16 @@ export const metadata: Metadata = {
   title: "Arda Eker - Blog Preview Card Component",
   description:
     "This is a solution to the Blog Preview Card Component challenge on Frontend Mentor. It's built with Tailwind CSS and NextJS. Made with ❤️ by Arda Eker.",
+  keywords: [
+    "Frontend Mentor",
+    "Tailwind CSS",
+    "NextJS",
+    "Arda Eker",
+    "Blog Preview Card Component",
+    "Frontend Mentor Challenge",
+    "Blog Preview Card Component Challenge",
+    "Blog Preview Card Component Solution",
+  ],
   metadataBase: new URL(
     "https://fm-2024-blog-preview-card-component.vercel.app/",
   ),
