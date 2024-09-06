@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor Page](https://www.frontendmentor.io/solutions/blog-preview-card-MgSyXNTw_b)
-- Live Site URL: [Deployed on Vercel](https://fm-2024-blog-preview-card.vercel.app)
+- Live Site URL: [Deployed on Vercel](https://fm-2024-blog-preview-card-component.vercel.app)
 
 ## My process
 
